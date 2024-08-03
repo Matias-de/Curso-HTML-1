@@ -1,0 +1,121 @@
+h1{
+    text-align: center;
+    color: #457b9d;
+}
+/* div{
+    /* position: static; */
+    /* position: relative; */
+    /* position: fixed; */
+    /* position: absolute; 
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    /* bottom: 10px;
+    right: 50px; 
+    max-width: 50%;
+    border: 3px solid firebrick;
+    margin: auto;
+} */
+/* div.relativo{
+    max-width: 300px;
+    height: 200px;
+    position: relative;
+    top:10px;
+    left: 100px;
+    border: 3px solid cornflowerblue;
+} */
+/* div.estatico{
+    position: static;
+    padding: 15px;
+    border: 3px solid greenyellow;
+    background-color: whitesmoke;
+}
+div.relativo{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    padding: 15px;
+    border: 3px solid blueviolet;
+    background-color: whitesmoke;
+    
+}
+div.absoluto{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 112px;
+    border: 3px solid cornflowerblue;
+    background-color: whitesmoke;
+    z-index: -1;
+} */
+ div.contenedor{
+    /* position: relative; */
+    
+    width: 80%;
+     margin: auto; 
+    height: 20%px;
+    /* 
+        Se puede usar overflow siempre que se haya especificado un height
+    overflow: visible; default*/
+    /* overflow:hidden; se oculta todo lo que se salga del div */
+    /* overflow: scroll; se agrega barras de scroll */
+    overflow: auto; /*se ponen barras de scroll de caso de ser necesario*/
+    border: 3px dashed #a8dadc;
+}
+span{
+    font-weight: bolder;
+    font-size: larger;
+    font-style: italic;
+    background-color: #a8dadc;
+    border: 1px solid #457b9d;
+    height: 50px;
+    padding: 5px;
+    display: block;
+}
+.menu{
+    list-style-type:none;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+    background-color: #e63946;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: #f1faee;
+}
+.menu li a:hover{
+    background-color: #dfcaca;
+    color: #997373;
+}
+/* div.contenedor.flotado{
+    float: left;
+}
+div.contenedor.flotado.contenedor1{
+    border: 3px dashed greenyellow;
+}
+div.contenedor.flotado.contenedor2{
+    border: 3px dashed cornflowerblue;
+    float: right;
+}
+div.contenedor.contenedor3{
+    border: 3px dashed darkorange;
+    clear: both;
+    margin: auto;
+} */
+/* img.imagen{
+    width: 100%;
+    opacity: 0.5;
+}
+div.centro{
+    position: absolute;
+    top: 50%;
+    /* border: 3px solid blue; 
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} */
